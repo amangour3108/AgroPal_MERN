@@ -10,7 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://agro-dpktgrtqv-aman-gours-projects-f999180d.vercel.app/"],  # For testing: allow all origins
+    allow_origins=["https://agro-pal-git-main-aman-gours-projects-f999180d.vercel.app"],  # For testing: allow all origins
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
