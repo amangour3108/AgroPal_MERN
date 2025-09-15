@@ -11,7 +11,7 @@ import QueryForm from "./pages/QueryForm";
 
 function App() {
   return (
-    <Router>
+  
       <div className="min-h-screen flex flex-col bg-gradient-to-b from-green-200 via-green-300 to-green-400">
         {/* Navbar */}
         <Navbar />
@@ -31,7 +31,7 @@ function App() {
         {/* Footer */}
         <Footer />
       </div>
-    </Router>
+   
   );
 }
 
